@@ -1077,6 +1077,7 @@ nav ul li{
 .carte{
   width:300px;
   height:300px;
+  margin-right:0;
 }
 
 .météo{
