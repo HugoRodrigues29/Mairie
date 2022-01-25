@@ -1031,7 +1031,11 @@ button:hover{
 }
 
 @media only screen and (max-width: 375px){
-/*footer*/
+
+h1{
+  margin-top:40px;
+}
+  /*footer*/
 
 .liste-footer{
   font-size:12px;
@@ -1070,6 +1074,7 @@ nav ul li{
 .titre-page1{
   text-align: center;
   margin-left:0;
+  margin-top: 53.3px !important;
 }
 
 .météo-et-carte{
@@ -1135,14 +1140,13 @@ nav ul li{
 .boxgrise{
   margin-bottom : 30px;
 }
-  
-  /*Page Mairie*/
+}
+
+/*Page Mairie*/
 
 .prise-rdv{
   margin-left: 0;
   text-align: center;
-}
-
 }
 
 
