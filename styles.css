@@ -1030,3 +1030,22 @@ button:hover{
 }
 }
 
+@media only screen and (max-width: 600px){
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.menu{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.météo-et-carte{
+  flex-direction: column;
+}
+}
+
