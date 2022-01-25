@@ -1033,6 +1033,11 @@ button:hover{
 @media only screen and (max-width: 375px){
 
   /*menu*/
+
+  .logo{
+    width:25%;
+    height:25%;
+  }
   nav ul {
     list-style: none;
     display: flex;
@@ -1067,6 +1072,16 @@ nav ul li{
 .P-horaires{
   margin-bottom: 35px;
   text-align: center;
+}
+
+.carte{
+  width:300px;
+  height:300px;
+}
+
+.météo{
+  margin-right:0;
+  margin-left:0;
 }
 }
 
