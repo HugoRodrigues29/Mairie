@@ -1038,6 +1038,11 @@ button:hover{
   padding:0;
   flex-direction: column;
 }
+
+.liste-footer li{
+  height:60px;
+  padding-top:15px;
+}
   /*menu*/
 
   .logo{
