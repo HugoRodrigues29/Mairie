@@ -1031,7 +1031,11 @@ button:hover{
 }
 
 @media only screen and (max-width: 375px){
+/*footer*/
 
+.liste-footer{
+  font-size:12px;
+}
   /*menu*/
 
   .logo{
@@ -1058,7 +1062,7 @@ nav ul li{
 /*Page accueil*/
 .météo-et-carte{
   flex-direction: column;
-  margin-top: 80px;
+  margin-top: 30px;
   align-items:center;
 }
 
@@ -1084,8 +1088,41 @@ nav ul li{
   margin-right:0;
   margin-left:0;
 }
-  
-  .btn{
-    visibility:hiddden;}
+
+.btn{
+  visibility: hidden;
 }
+
+#texte-info1{
+  font-size:9px;
+}
+
+#texte-info2{
+  font-size:9px;
+}
+
+#texte-info3{
+  font-size:9px;
+}
+
+.bande1{
+  font-size: 13px;
+  text-align: center;
+}
+
+.bande2{
+  font-size: 13px;
+  text-align: center;
+}
+
+.bande3{
+  font-size: 13px;
+  text-align: center ;
+}
+
+.boxgrise{
+  margin-bottom : 30px;
+}
+}
+
 
