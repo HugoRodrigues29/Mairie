@@ -1135,6 +1135,14 @@ nav ul li{
 .boxgrise{
   margin-bottom : 30px;
 }
+  
+  /*Page Mairie*/
+
+.prise-rdv{
+  margin-left: 0;
+  text-align: center;
+}
+
 }
 
 
