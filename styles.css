@@ -1047,5 +1047,7 @@ button:hover{
 .météo-et-carte{
   flex-direction: column;
 }
+  nav ul li{
+    position : initial;}
 }
 
