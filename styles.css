@@ -1030,7 +1030,9 @@ button:hover{
 }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 375px){
+
+  /*menu*/
   nav ul {
     list-style: none;
     display: flex;
@@ -1044,10 +1046,15 @@ button:hover{
   align-items: center;
 }
 
+nav ul li{
+  position: initial;
+}
+
+/*Page accueil*/
 .météo-et-carte{
   flex-direction: column;
+  margin-top: 80px;
+  align-items:center;
 }
-  nav ul li{
-    position : initial;}
 }
 
