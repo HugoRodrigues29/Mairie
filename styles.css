@@ -1056,5 +1056,17 @@ nav ul li{
   margin-top: 80px;
   align-items:center;
 }
+
+.horaires-photos{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.P-horaires{
+  margin-bottom: 35px;
+  text-align: center;
+}
 }
 
