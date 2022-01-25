@@ -1069,6 +1069,7 @@ nav ul li{
 /*Page accueil*/
 .titre-page1{
   text-align: center;
+  margin-left:0;
 }
 
 .météo-et-carte{
