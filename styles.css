@@ -1,0 +1,1032 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.logo{
+  width:10%;
+  height: 10%;
+}
+
+/*Menu*/
+
+nav{
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  font-family: 'Lucida Sans';
+  margin-top: 30px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+
+nav ul:after{
+  content:"";
+  display: table;
+  clear:both;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+
+nav a:hover{
+  color: #3B45C4;
+  transition: 1s all;
+  border-bottom: 2px solid #3B45C4;
+}
+
+.sous{
+  display: none;
+  box-shadow: 0px 1px 2px #CCC;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav > ul li:hover .sous{
+  display: block;
+}
+
+.sous li{
+  float: none;
+  width: 200px;
+  text-align: left;
+}
+
+.sous a{
+  padding: 10px;
+  border-bottom: none;
+}
+
+.sous a:hover{
+  border-bottom: none;
+  background-color: RGBa(200,200,200,0.1);
+}
+
+.deroulant > a::after{
+  content: "▼";
+  font-size: 12px;
+}
+
+.menu{
+  display:flex;
+}
+
+/*Page principale*/
+
+h1{
+  font-family: 'Impact';
+
+}
+
+.titre-page1{
+  margin-top: 53.5px;
+  margin-left: 22px;
+  margin-bottom: 3px;
+}
+
+.bandebleu{
+  background-color: #3B45C4;
+  width: 100%;
+  height: 73px;
+  display: flex;
+}
+
+.bande1{
+  width: 33%;
+  height: 73px;
+  border-right: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bande2{
+  width: 33%;
+  height: 73px;
+  border-right: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bande3{
+  width: 33%;
+  height: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#info1{
+  color:white;
+  font-family: 'Impact', sans-serif;
+}
+
+#info2{
+  color:white;
+  font-family: 'Impact', sans-serif;
+}
+
+#info3{
+  color:white;
+  font-family: 'Impact', sans-serif;
+}
+
+.boxgrise{
+  width: 100%;
+  height: 144px;
+  background-color: #DFDCDC;
+  display: flex;
+}
+
+.box1{
+  width:33%;
+  height: 144px;
+  border-right: 1px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2{
+  width:33%;
+  height: 144px;
+  border-right: 1px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box3{
+  width:33%;
+  height: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#texte-info1{
+  text-align: justify;
+  margin: 10px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 15px;
+}
+
+#texte-info2{
+  text-align: justify;
+  margin: 10px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 15px;
+}
+
+#texte-info3{
+  text-align: justify;
+  margin: 10px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 15px;
+}
+
+#lien-info{
+  text-decoration: none;
+  color: black;
+}
+
+#lien-info:hover{
+  color:#3B45C4;
+  transition: 0.5s all;
+}
+
+/*méteo et carte*/
+
+.météo-et-carte{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+}
+
+.météo{
+  width: 244px;
+  height: 208px;
+  background-color: #3B45C4;
+  margin-top: 66px;
+  margin-left: 140px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 300px;
+}
+
+#ville {
+  text-transform: capitalize;
+}
+
+#temperature {
+  font-size: 4em;
+}
+
+.text-météo{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.carte{
+  margin-top:33px;
+  margin-right:60px;}
+
+.horaires-photos{
+  display:flex;
+  margin-top: 121px;
+  justify-content: space-between;
+  margin-left:140px;
+  margin-right:215px;
+}
+
+.image-mairie{
+  width:450px;
+}
+
+.horaire1{
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+h3{
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+/*footer*/
+
+footer{
+  background-color: #3B45C4;
+  height: auto;
+  width:auto;
+  color: white;
+  padding:25px;
+  margin-top:45px;
+}
+
+.footer{
+  height:240px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.liste-footer{
+  list-style:none;
+  display: flex;
+  font-size: 18px;
+}
+
+.liste-footer li{
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  height: 100px;
+  width: 100px;
+  background: #3B45C4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+.icone {
+  width: 50px;
+}
+
+/*page La Mairie*/
+
+#image-mairie{
+  width: 656px;
+  margin-bottom: 60px;
+}
+
+.pagemairie{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#titre-mairie{
+  margin-bottom: 30px;
+}
+
+.prise-rdv{
+  margin-top:40px;
+  margin-left:60px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+#secretaire{
+  font-size:24px;
+  margin-bottom: 15px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+/*Page Démarche administrative*/
+
+.titre-demarche{
+    text-align: center;
+}
+
+.carteid{
+  margin-top:119px;
+  margin-left: 60px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size:24px;
+}
+
+.photocarte{
+  width:420px;
+  margin-top:40px;
+}
+
+.image-carte{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info-cni{
+  font-family: 'Lucida Sans', sans-serif;
+  margin-top: 89px;
+  margin-left:60px;
+  width: 90%;
+  text-align: justify;
+}
+
+
+.liste-cni{
+  list-style: none;
+}
+
+.liste-cni li:before{
+  content: '- ';
+}
+
+#noter{
+  color:red;
+  font-weight: 900;
+}
+
+#italic1{
+  font-size:13px;
+}
+
+#image-pass{
+  width:420px;
+  margin-top:40px;
+}
+
+.photo-passeport{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.info-pass{
+  font-family: 'Lucida Sans', sans-serif;
+  margin-top: 89px;
+  margin-left:60px;
+  width:90%;
+  text-align: justify;
+}
+
+.divers{
+  font-family: 'Lucida Sans', sans-serif;
+  margin-top: 89px;
+  margin-left:60px;
+  margin-bottom: 120px;
+  width: 90%;
+  text-align: justify;
+}
+
+/*Page élus*/
+
+.titre-élus{
+  text-align: center;
+}
+
+#photo-maire{
+  width:350px;
+  height: 467px;
+  margin-top: 80px;
+}
+
+.photomaire{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nom-maire{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.liste-élus{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top:150px;
+}
+
+.élus-1{
+  width:40%;
+  padding-left:50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.élus-2{
+  width:40%;
+  padding-right: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Lucida Sans', sans-serif;
+  margin-bottom:120px;
+}
+
+
+/*Page CCAS*/
+
+.titre-CCAS{
+  text-align: center;
+}
+
+.infoCCAS{
+  font-family: 'Lucida Sans', sans-serif;
+  margin-left: 60px;
+  width:1200px;
+}
+
+.listeCCAS{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.CCAS1{
+  margin-left:150px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: bold;
+}
+
+
+.CCAS2{
+  margin-right:300px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.Services-logements{
+  margin-left: 60px;
+  margin-top: 60px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.horairesCCAS{
+  margin-left: 60px;
+  margin-top: 60px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.contactsCCAS{
+  margin-left: 60px;
+  margin-top: 60px;
+  font-family: 'Lucida Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.infocontacts{
+  margin-left: 60px;
+  margin-top: 60px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom:120px;
+}
+
+
+/*Page comptes-rendus*/
+
+.listes-cr ul{
+  list-style: none;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.listes-cr a{
+  text-decoration: none;
+  color: black;
+}
+
+.listes-cr a:hover{
+  color:#3B45C4;
+  transition: 1s all;
+}
+
+.l2014{
+  margin-top: 25px;
+}
+
+.l2015{
+  margin-top: 25px;
+}
+
+.l2016{
+  margin-top: 25px;
+}
+
+.l2017{
+  margin-top: 25px;
+}
+
+.l2018{
+  margin-top: 25px;
+}
+
+.l2019{
+  margin-top: 25px;
+}
+
+.l2020{
+  margin-top: 25px;
+}
+
+.l2021{
+  margin-top: 25px;
+}
+
+/*Histoire*/
+
+.titre-histoire{
+  text-align: center;
+}
+
+#img-tram{
+  width: 450px;
+}
+
+.tramway{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 92px;
+}
+
+#texte-tramway{
+  text-align: center;
+  margin-top:15px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.histoire-peugeot{
+  font-family: 'Lucida Sans', sans-serif;
+  margin-top:50px;
+  display: flex;
+  flex-direction: column;
+  margin-left:60px;
+  margin-right:60px;
+  text-align: center;
+}
+
+.nom-perso{
+  font-family: 'Lucida Sans', sans-serif;
+  margin-left:80px;
+  margin-top: 45px;
+  font-weight: bold;
+  font-size:24px;
+}
+
+.img-léon{
+  width:500px;
+}
+
+#perso1{
+  display:flex;
+  justify-content: space-around;
+  margin-top:50px;
+}
+
+#léon2{
+  font-family: 'Lucida Sans', sans-serif;
+  display:flex;
+  font-size: 20px;
+  align-content: center;
+  align-self: center;
+}
+
+#img-armand{
+  width:500px;
+  margin-right:50px;
+}
+
+#perso2{
+  display:flex;
+  justify-content: space-around;
+  margin-top:50px;
+}
+
+#armand2{
+  font-family: 'Lucida Sans', sans-serif;
+  display:flex;
+  font-size: 20px;
+  align-content: center;
+  align-self: center;
+  margin-left:50px;
+}
+
+.françois{
+  text-align: center;
+  margin-top:45px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 20px;
+}
+
+.marcel{
+  text-align: center;
+  margin-top:45px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 20px;
+  margin-bottom:150px;
+}
+
+/*Pages écoles*/
+
+.titres-écoles{
+  font-family: 'Lucida Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin-top:80px;
+}
+
+#ecoles1{
+  display: flex;
+  margin-top:50px;
+}
+
+.div1{
+  margin-left:50px;
+  font-size:18px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.titre1{
+  margin-left:60px;
+  font-weight: bold;
+  font-size:18px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+#ecoles1-2{
+  display:flex;
+  margin-top: 70px;
+}
+
+.titres2{
+  margin-left:60px;
+  font-weight: bold;
+  font-size:18px;
+  font-family: 'Lucida Sans', sans-serif;
+ 
+}
+.horaires{
+  margin-left:50px;
+  font-size:18px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.horaires2{
+  margin-left:50px;
+  font-size:18px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.image-creche{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.info-creche{
+  margin-left:60px;
+  margin-top: 80px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size:18px;
+}
+
+.info-creche li:before{
+  content: "-";
+  padding-right: 5px;
+}
+
+.info-creche  li{
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.info-creche ul{
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/*Page relais*/
+
+#info-relais{
+  margin-left: 60px;
+  margin-top: 80px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.titre-rencontre{
+  margin-top:119px;
+  margin-left: 60px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 18px;
+}
+
+#rencontre{
+  font-family: 'Lucida Sans', sans-serif;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+#excla-rencontre{
+  font-size : 12px;
+}
+
+.titre-info-relais{
+  margin-top:119px;
+  margin-left: 60px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 18px;
+}
+
+#a-quoi-sert{
+  font-family: 'Lucida Sans', sans-serif;
+  margin-left: 60px;
+  margin-top: 60px;
+  width: 70%;
+  text-align: justify;
+}
+
+.apports{
+  margin-top:119px;
+  margin-left: 60px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 16px;
+}
+
+#liste-relais1{
+  margin-top: 40px;
+  margin-left: 65px;
+  font-family: 'Lucida Sans', sans-serif;
+  width: 70%;
+  list-style: none;
+  text-align: justify;
+}
+
+#liste-relais1 a{
+  text-decoration: none;
+  color : black;
+}
+
+#liste-relais1 a:hover{
+  color: blue;
+  transition: 0.5s all;
+}
+
+#liste-relais1 li{
+  padding-bottom: 15px;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+#liste-relais1 li:before{
+  content: "-";
+  padding-right: 5px;
+}
+
+.apports2{
+  margin-top : 40px; 
+  margin-left:60px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 16px;
+}
+
+/*Page Ecole de la musique*/
+
+.titre-musique{
+  text-align: center;
+}
+
+#img-musique{
+  width: 600px;
+  
+}
+
+.image_note{
+  display: flex;
+  justify-content: center ;
+  margin-top: 60px;
+}
+
+.musique{
+  display:flex;
+  justify-content: center;
+  margin-top: 119px;
+}
+.texte-musique{
+  width:85%;
+  text-align: center;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size : 18px;
+}
+
+.titre-instru{
+  margin-top : 150px; 
+  margin-left:60px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.liste-instru{
+  margin-top: 40px;
+  margin-left: 65px;
+  font-family: 'Lucida Sans', sans-serif;
+  width: 70%;
+  list-style: none;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.liste-instru li{
+  padding-bottom: 15px;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.liste-instru li:before{
+  content: "-";
+  padding-right: 5px;
+}
+
+.titre-enseignement{
+  margin-top : 80px; 
+  margin-left:60px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.liste-enseignement{
+  margin-top: 40px;
+  margin-left: 65px;
+  font-family: 'Lucida Sans', sans-serif;
+  width: 70%;
+  list-style: none;
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 150px;
+}
+
+.liste-enseignement li:before{
+  content: "-";
+  padding-right: 5px;
+}
+
+.liste-enseignement li{
+  padding-bottom: 15px;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+/*Page Contact*/
+
+.main-contact{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.surname{
+  margin-top: 25px;
+  width: 250px;
+  border: solid grey;
+  font-family: "Montserrat", sans-serif;
+  height: 25px;
+}
+
+.prénom{
+  margin-top: 25px;
+  width: 250px;
+  border: solid grey;
+  font-family: "Montserrat", sans-serif;
+  height: 25px;
+}
+.adresse{
+  margin-top: 25px;
+  width: 250px;
+  border: solid grey;
+  font-family: "Montserrat", sans-serif;
+  height: 25px;
+}
+
+.inputemail{
+  margin-top: 25px;
+  width: 250px;
+  border: solid grey;
+  font-family: "Lucida sans", sans-serif;
+  height: 25px;
+}
+
+button{
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #3B45C4;
+  margin-bottom: 111.5px;
+  color:white;
+  border: none;
+  font-family: "Lucida Sans", sans-serif;
+  box-shadow: none;
+}
+
+button:hover{
+  border: 1px black;
+  transition: 0.5s all;
+}
+.textarea{
+  margin-top: 25px;
+  width: 500px;
+  border: solid grey;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+#sidebar {
+  float: right;
+  width: 200px;
+}
+#main {
+  margin-right: 200px;
+}
+
+@media (max-width: 1024px) {
+  /* CSS appliqué aux petits écrans */
+  #sidebar {
+     float: none;
+     width: auto;
+  }
+  #main {
+     margin-right: 0px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+}
+}
+

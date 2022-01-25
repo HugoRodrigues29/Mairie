@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La mairie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+
+</head>
+<body>
+    <header>
+      <div class="menu">
+            <img class="logo" src="images/téléchargement-removebg-preview.png">
+      
+      
+          <!--Menu-->
+            <nav>
+              <ul>
+                <li> <a href="index.html">Accueil</a> </li>
+                <li class="deroulant"><a href="#">Commune &ensp;</a>
+                <ul class="sous">
+                  <li><a href="mairie.html">La mairie</a></li>
+                  <li><a href="demarches.html">Démarches administratives</a></li>
+                  <li><a href="élus.html">Les élus</a></li>
+                  <li><a href="CCAS.html">Le CCAS</a></li>
+                  <li><a href="comptes-rendus.html">Comptes-rendus conseils municipaux</a></li>
+                  <li><a href="histoire.html">Histoire</a></li>
+                </ul>
+              </li>
+              <li class="deroulant"><a href="#">Enfance et Jeunesse &ensp;</a>
+                <ul class="sous">
+                  <li><a href="ecoles.html">Les écoles publiques</a></li>
+                  <li><a href="creche.html">La crèche</a></li>
+                  <li><a href="relais.html">Relais assistante maternelle</a></li>
+                  <li><a href="musique.html">L'école de la musique</a></li>
+                </ul>
+              </li>
+              <li> <a href="contact.html">Contact</a> </li>
+                </ul>
+
+            </nav>
+          </div>
+    </header>
+
+    <!--Boutton pour remonter-->
+    <div class="btn">
+
+        <img src="images/arrow-up-solid.svg" alt="" class="icone">
+      </div>
+
+    <!--Contenu principale-->
+    <div class="pagemairie">
+    <h1 id="titre-mairie">LA MAIRIE</h1>
+    
+    <img id="image-mairie" src="images/Hérimoncourt,_Mairie.jpg">
+    
+    <p class="horaire1"><strong>Lundi :</strong> 14h00 - 17h00<br>
+        <strong>Mardi :</strong> 09H00 - 11h45, 14h00 - 17h00<br>
+        <strong>Mercredi :</strong> 09H00 - 11h45, 14h00 - 17h00<br>
+        <strong>Jeudi :</strong> 09H00 - 11h45, 14h00 - 17h00<br>
+        <strong>Vendredi : </strong>09H00 - 11h45, 14h00 - 17h00<br>
+        <strong>Samedi : </strong>09H00 - 11h45<br>
+        <strong>Dimanche :</strong> Fermé
+        </p>
+    </div>
+
+    <div class="prise-rdv">
+    <p id="secretaire"><strong>Secrétariat du Maire :</strong></p>
+    <p id="rdv">Prise de rendez-vous avec Madame le Maire ou madame la Directrice Générale des Services.
+        <br><br>
+        03 81 36 30 06</p>
+        <br><br>
+        <i class='fas fa-exclamation-circle' style='font-size:24px;color:orangered'></i> <strong>Tout courrier doit être adressé à "Madame le Maire" afin de pouvoir être enregistré et pris en compte officiellement.</strong>
+    </div>
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer">
+          <h3 class="titre-footer">Mairie d'Hérimoncourt</h3><br>
+          <ul class="liste-footer">
+            <li><i class="fas fa-map-marker"></i><br><br>3 rue Pierre Peugeot 25310<br>Hérimoncourt</li>
+            <li><i class="fas fa-phone"></i><br><br>03 81 36 30 00</li>
+            <li><i class="fas fa-envelope"></i><br><br>mairie@commune-herimoncourt.fr</li>
+          </ul>
+          <p><a href="#">mentions légales</a></p><br>
+          <p>&copy;<script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> Hérimoncourt</p>
+      
+        </div>
+      </footer>
+
+
+      <script>
+                const btn = document.querySelector('.btn');
+
+btn.addEventListener('click', () => {
+
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+    })
+
+    
+
+})
+      </script>
+      </body>
+      </html>
