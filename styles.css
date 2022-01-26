@@ -1237,5 +1237,48 @@ width:80%;
   align-items: center;
 }
 
+/*media  smartphone Page CCAS*/
+.listeCCAS{
+  width:100%;
+  justify-content: space-around;
+}
+
+.CCAS1{
+  font-size: 13px;
+  width: 40%;
+  margin-left:0;
+}
+
+.CCAS2{
+  font-size: 12px;
+  width:40%;
+  margin-top:35px;
+  margin-right:0;
+}
+
+.infoCCAS{
+  width:80%;
+  margin:auto;
+}
+.Services-logements{
+  width:80%;
+  margin:auto;
+} 
+
+.horairesCCAS{
+  width:80%;
+  margin:auto;
+}
+
+.contactsCCAS{
+  margin-left:0;
+  margin-bottom:40px;
+}
+
+.infocontacts{
+  margin:auto;
+  width:80%;
+}
+
 }
 
