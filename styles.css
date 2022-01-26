@@ -473,6 +473,10 @@ footer{
   font-family: 'Lucida Sans', sans-serif;
 }
 
+.élus-1 p{
+  margin-bottom :40px;
+}
+
 .élus-2{
   width:40%;
   padding-right: 50px;
@@ -480,6 +484,10 @@ footer{
   font-weight: bold;
   font-family: 'Lucida Sans', sans-serif;
   margin-bottom:120px;
+}
+
+.élus-2 p{
+  margin-bottom:40px;
 }
 
 
@@ -1210,6 +1218,23 @@ nav ul li{
 }
 .divers p{
 width:80%;
+}
+
+/*media smartphone Page élus*/
+
+.élus-1{
+  width:80%;
+  padding-left:0;
+}
+
+.élus-2{
+  width:80%;
+  padding-right:0;
+}
+
+.liste-élus{
+  flex-direction: column;
+  align-items: center;
 }
 
 }
