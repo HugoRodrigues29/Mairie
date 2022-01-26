@@ -1376,5 +1376,37 @@ width:80%;
   margin-bottom:60px;
   width:80%;
 }
+
+/*media smartphone Page Ecole publique*/
+
+#ecoles1{
+  flex-direction: column;
+  width:100%;
+}
+
+.div1{
+  width:80%;
+  font-size:14px;
+}
+
+.titre1{
+  margin-bottom:15px;
+}
+
+#ecoles1-2{
+  flex-direction: column;
+}
+
+.titres2{
+  margin-bottom: 15px;
+}
+
+.horaires{
+  font-size: 14px;
+}
+
+.horaires2{
+  font-size:14px;
+}
 }
 
