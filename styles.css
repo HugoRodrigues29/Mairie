@@ -93,8 +93,7 @@ nav > ul li:hover .sous{
 /*Page principale*/
 
 h1{
-  font-family: 'Impact';
-
+  font-family: 'Impact', sans-serif;
 }
 
 .titre-page1{
@@ -1149,5 +1148,4 @@ nav ul li{
   text-align: center;
 }
 }
-
 
