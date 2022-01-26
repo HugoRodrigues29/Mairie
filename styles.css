@@ -632,6 +632,7 @@ footer{
   margin-left:60px;
   margin-right:60px;
   text-align: center;
+  font-size: 18px;
 }
 
 .nom-perso{
@@ -1306,6 +1307,7 @@ width:80%;
   margin-right:0;
   align-items: center;
   width:100%;
+  font-size: initial;
 }
 
 #texte-tramway{
