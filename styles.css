@@ -1316,7 +1316,7 @@ width:80%;
 
 .nom-perso{
   margin-left:0;
-  font-size:22px;
+  font-size:20px;
 }
 
 #perso1{
@@ -1340,6 +1340,10 @@ width:80%;
 .armand1{
   margin-bottom:25px;
 }
+  
+  #img-armand{
+    margin-right:0;
+  }
 
 #armand2{
   text-align: center;
