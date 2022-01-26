@@ -1034,7 +1034,7 @@ button:hover{
 h1{
   margin-top:40px;
 }
-  /*footer*/
+  /*média smartphone footer*/
 
 .liste-footer{
   font-size:12px;
@@ -1046,7 +1046,7 @@ h1{
   height:60px;
   padding-top:15px;
 }
-  /*menu*/
+  /*media smartphone menu*/
 
   .logo{
     width:25%;
@@ -1069,7 +1069,7 @@ nav ul li{
   position: initial;
 }
 
-/*Page accueil*/
+/*Media smartphone Page accueil*/
 .titre-page1{
   text-align: center;
   margin-left:0;
@@ -1141,11 +1141,76 @@ nav ul li{
 }
 
 
-/*Page Mairie*/
+/*Media smartphone Page Mairie*/
 
 .prise-rdv{
   margin-left: 0;
   text-align: center;
 }
+
+/*Media smartphone Page Démarches*/
+
+.carteid{
+  margin-left: 0;
+  text-align: center;
+}
+
+.info-cni{
+  margin-left:0;
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  align-items:center
+}
+
+.info-cni p{
+  width:80%
+}
+
+#noter{
+  margin-bottom: 20px;
+}
+
+
+.texte-excla{
+  width:80%;
+}
+
+.liste-cni{
+  padding-left: 0;
+  width: 80%;
+}
+
+.liste-cni #text{
+  width:80%;
+}
+
+.liste-cni ul li{
+  padding-bottom: 15px;
+}
+
+.info-pass{
+  margin-left:0;
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  align-items:center
+}
+
+.info-pass p{
+  width:80%;
+}
+
+.divers{
+  margin-left:0;
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  align-items:center
+}
+.divers p{
+width:80%;
+}
+
 }
 
