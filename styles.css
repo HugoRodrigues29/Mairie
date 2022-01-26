@@ -1290,5 +1290,69 @@ width:80%;
   flex-direction: column;
   padding-right:40px;
 }
+
+/*media smartphone Page Histoire*/
+
+.histoire1{
+  width:80%;
+}
+
+.histoire2{
+  width:80%;
+}
+
+.histoire-peugeot{
+  margin-left:0;
+  margin-right:0;
+  align-items: center;
+  width:100%;
+}
+
+#texte-tramway{
+  width:80%;
+}
+
+.nom-perso{
+  margin-left:0;
+  font-size:22px;
+}
+
+#perso1{
+  flex-direction: column;
+}
+
+#léon1{
+  margin-bottom: 25px;
+}
+
+#léon2{
+  text-align: center;
+  font-size: 14px;
+  width:80%;
+}
+
+#perso2{
+  flex-direction: column-reverse;
+}
+
+.armand1{
+  margin-bottom:25px;
+}
+
+#armand2{
+  text-align: center;
+  font-size: 14px;
+  width: 80%;
+  margin-left:0;
+}
+
+.françois{
+  font-size:14px;
+}
+
+.marcel{
+  font-size: 14px;
+  margin-bottom:80px;
+}
 }
 
