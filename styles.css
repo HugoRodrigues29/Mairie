@@ -1043,7 +1043,7 @@ button:hover{
 h1{
   margin-top:40px;
 }
-  /*média smartphone footer*/
+  /*média footer*/
 
 .liste-footer{
   font-size:12px;
@@ -1055,7 +1055,7 @@ h1{
   height:60px;
   padding-top:15px;
 }
-  /*media smartphone menu*/
+  /*media menu*/
 
   .logo{
     width:25%;
@@ -1078,7 +1078,7 @@ nav ul li{
   position: initial;
 }
 
-/*Media smartphone Page accueil*/
+/*Media Page accueil*/
 .titre-page1{
   text-align: center;
   margin-left:0;
@@ -1154,14 +1154,14 @@ nav ul li{
 }
 
 
-/*Media smartphone Page Mairie*/
+/*Media Page Mairie*/
 
 .prise-rdv{
   margin-left: 0;
   text-align: center;
 }
 
-/*Media smartphone Page Démarches*/
+/*Media Page Démarches*/
 
 .carteid{
   margin-left: 0;
@@ -1226,7 +1226,7 @@ nav ul li{
 width:80%;
 }
 
-/*media smartphone Page élus*/
+/*media Page élus*/
 
 .élus-1{
   width:80%;
@@ -1243,7 +1243,7 @@ width:80%;
   align-items: center;
 }
 
-/*media  smartphone Page CCAS*/
+/*media Page CCAS*/
 .listeCCAS{
   width:100%;
   justify-content: space-around;
@@ -1286,7 +1286,7 @@ width:80%;
   width:80%;
 }
 
-/*media smartphone Page Comptes rendus*/
+/*media Page Comptes rendus*/
 
 .listes-cr{
   width:100%;
@@ -1297,7 +1297,7 @@ width:80%;
   padding-right:40px;
 }
 
-/*media smartphone Page Histoire*/
+/*media Page Histoire*/
 
 .histoire1{
   width:80%;
@@ -1382,7 +1382,7 @@ width:80%;
   width:80%;
 }
 
-/*media smartphone Page Ecole publique*/
+/*media Page Ecole publique*/
 
 #ecoles1{
   flex-direction: column;
@@ -1414,7 +1414,7 @@ width:80%;
   font-size:14px;
 }
 
-/*media smartphone Page crèche*/
+/*media Page crèche*/
 
 .info-creche{
   margin-left:0;
@@ -1427,7 +1427,7 @@ width:80%;
   justify-content: center;
 }
 
-/*media smartphone Page Relais Assistante Maternelle*/
+/*media Page Relais Assistante Maternelle*/
 
 .div-info-relais{
   width:100%;
@@ -1555,5 +1555,526 @@ text-align: center;
 .textarea{
   width:90%;
 }
+}
+
+
+/*media écran width >=320px*/
+
+@media only screen and (max-width: 320px){
+  h1{
+    margin-top:40px;
+  }
+    /*média footer*/
+  
+  .liste-footer{
+    font-size:12px;
+    padding:0;
+    flex-direction: column;
+  }
+  
+  .liste-footer li{
+    height:60px;
+    padding-top:15px;
+  }
+    /*media menu*/
+  
+    .logo{
+      width:25%;
+      height:25%;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+  }
+  
+  .menu{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav ul li{
+    position: initial;
+  }
+  
+  /*Media Page accueil*/
+  .titre-page1{
+    text-align: center;
+    margin-left:0;
+    margin-top: 53.3px !important;
+  }
+  
+  .météo-et-carte{
+    flex-direction: column;
+    margin-top: 30px;
+    align-items:center;
+  }
+  
+  .horaires-photos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .P-horaires{
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  
+  .carte{
+    width:300px;
+    height:300px;
+    margin-right:0;
+  }
+  
+  .météo{
+    margin-right:0;
+    margin-left:0;
+  }
+  
+  .btn{
+    visibility: hidden;
+  }
+  
+  #texte-info1{
+    font-size:8px;
+  }
+  
+  #texte-info2{
+    font-size:8px;
+  }
+  
+  #texte-info3{
+    font-size:8px;
+  }
+  
+  .bande1{
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .bande2{
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .bande3{
+    font-size: 10px;
+    text-align: center ;
+  }
+  
+  .boxgrise{
+    margin-bottom : 30px;
+  }
+  
+  .photos-mairie1{
+    text-align: center;
+  }
+  
+  
+  /*Media Page Mairie*/
+  
+  .prise-rdv{
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  /*Media Page Démarches*/
+  
+  .carteid{
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .info-cni{
+    margin-left:0;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:center
+  }
+  
+  .info-cni p{
+    width:80%
+  }
+  
+  #noter{
+    margin-bottom: 20px;
+  }
+  
+  
+  .texte-excla{
+    width:80%;
+  }
+  
+  .liste-cni{
+    padding-left: 0;
+    width: 80%;
+  }
+  
+  .liste-cni #text{
+    width:80%;
+  }
+  
+  .liste-cni ul li{
+    padding-bottom: 15px;
+  }
+  
+  .info-pass{
+    margin-left:0;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:center
+  }
+  
+  .info-pass p{
+    width:80%;
+  }
+  
+  .divers{
+    margin-left:0;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:center;
+    margin-top:45px;
+  }
+  .divers p{
+  width:80%;
+  }
+  
+  /*media Page élus*/
+  
+  .élus-1{
+    width:80%;
+    padding-left:0;
+  }
+  
+  .élus-2{
+    width:80%;
+    padding-right:0;
+  }
+  
+  .liste-élus{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /*media Page CCAS*/
+  .listeCCAS{
+    width:100%;
+    justify-content: space-around;
+  }
+  
+  .CCAS1{
+    font-size: 13px;
+    width: 40%;
+    margin-left:0;
+  }
+  
+  .CCAS2{
+    font-size: 12px;
+    width:40%;
+    margin-top:35px;
+    margin-right:0;
+  }
+  
+  .infoCCAS{
+    width:80%;
+    margin:auto;
+  }
+  .Services-logements{
+    width:80%;
+    margin:auto;
+  } 
+  
+  .horairesCCAS{
+    width:80%;
+    margin:auto;
+  }
+  
+  .contactsCCAS{
+    margin-left:0;
+    margin-bottom:40px;
+  }
+  
+  .infocontacts{
+    margin:auto;
+    width:80%;
+  }
+  
+  /*media Page Comptes rendus*/
+  
+  .listes-cr{
+    width:100%;
+    text-align:justify;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right:40px;
+  }
+  
+  /*media Page Histoire*/
+  
+  .histoire1{
+    width:80%;
+  }
+  
+  .histoire2{
+    width:80%;
+  }
+  
+  .histoire-peugeot{
+    margin-left:0;
+    margin-right:0;
+    align-items: center;
+    width:100%;
+    font-size: initial;
+  }
+  
+  #texte-tramway{
+    width:80%;
+  }
+  
+  .nom-perso{
+    margin-left:0;
+    font-size:20px;
+    margin-left:9px;
+  }
+  
+  #perso1{
+    flex-direction: column;
+  }
+  
+  #léon1{
+    margin-bottom: 25px;
+  }
+  
+  #léon2{
+    text-align: center;
+    font-size: 14px;
+    width:80%;
+  }
+  
+  #perso2{
+    flex-direction: column-reverse;
+  }
+  
+  .armand1{
+    margin-bottom:25px;
+  }
+  
+  #img-armand{
+    margin-right: 0;
+  }
+  
+  #armand2{
+    text-align: center;
+    font-size: 14px;
+    width: 80%;
+    margin-left:0;
+  }
+  
+  .francois-gen{
+    width:100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .françois{
+    font-size:14px;
+    width:80%;
+  }
+  
+  .marcel-gen{
+    width:100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .marcel{
+    font-size: 14px;
+    margin-bottom:60px;
+    width:80%;
+  }
+  
+  /*media Page Ecole publique*/
+  
+  #ecoles1{
+    flex-direction: column;
+    width:100%;
+  }
+  
+  .div1{
+    width:80%;
+    font-size:14px;
+  }
+  
+  .titre1{
+    margin-bottom:15px;
+  }
+  
+  #ecoles1-2{
+    flex-direction: column;
+  }
+  
+  .titres2{
+    margin-bottom: 15px;
+  }
+  
+  .horaires{
+    font-size: 14px;
+  }
+  
+  .horaires2{
+    font-size:14px;
+  }
+  
+  /*media Page crèche*/
+  
+  .info-creche{
+    margin-left:0;
+    width:80%;
+  }
+  
+  .width-creche{
+    width:100%;
+    display: flex;;
+    justify-content: center;
+  }
+  
+  /*media Page Relais Assistante Maternelle*/
+  
+  .div-info-relais{
+    width:100%;
+    display:flex;
+    justify-content: center;
+  }
+  
+  #info-relais{
+    width:80%;
+    margin-left:0;
+  }
+  
+  
+  
+  .titre-rencontre{
+    margin-left:0;
+    text-align: center;
+  }
+  
+  #rencontre{
+    margin-left:0;
+    text-align: center;
+    width:80%;
+  }
+  
+  .div-rencontre{
+    display:flex;
+    width:100%;
+    justify-content: center;
+  }
+  
+  .titre-info-relais{
+    margin-left:0;
+    text-align: center;
+  }
+  
+  .div-sert{
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #a-quoi-sert{
+    margin-left:0;
+    width:80%;
+  }
+  
+  
+  .apports{
+    margin-left:0;
+    text-align: center;
+  }
+  
+  .liste-relais1{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #liste-relais1{
+  width:80%;
+  margin-left:0;
+  padding-left:0;
+  }
+  
+  .apports2{
+    margin-left:0;
+    text-align: center;
+  }
+  
+  /*media Page Ecole de la musique*/
+  
+  .musique{
+    width:100%;
+    display:flex;
+    justify-content: center;
+  }
+  
+  .texte-musique{
+    width:80%;
+  }
+  
+  .titre-instru{
+    margin-left:0;
+    text-align: center;
+  }
+  
+  .titre-enseignement{
+    margin-left:0;
+    text-align: center;
+  }
+  
+  .instruments{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .liste-instru{
+    width:80%;
+  margin-left:0;
+  padding-left:0;
+  text-align: center;
+  }
+  
+  .enseignement{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    height:250px;
+  }
+  
+  .liste-enseignement{
+    width:80%;
+    margin-left:0;
+    padding-left:0;
+    text-align: center;
+  }
+  
+  /*media Page contact*/
+  
+  .textarea{
+    width:90%;
+  }
 }
 
