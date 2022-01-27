@@ -1038,7 +1038,7 @@ button:hover{
 }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 900px){
 
 h1{
   margin-top:40px;
@@ -1147,6 +1147,10 @@ nav ul li{
 
 .boxgrise{
   margin-bottom : 30px;
+}
+
+.photos-mairie1{
+  text-align: center;
 }
 
 
@@ -1421,6 +1425,78 @@ width:80%;
   width:100%;
   display: flex;;
   justify-content: center;
+}
+
+/*media smartphone Page Relais Assistante Maternelle*/
+
+.div-info-relais{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+#info-relais{
+  width:80%;
+  margin-left:0;
+}
+
+
+
+.titre-rencontre{
+  margin-left:0;
+  text-align: center;
+}
+
+#rencontre{
+  margin-left:0;
+  text-align: center;
+  width:80%;
+}
+
+.div-rencontre{
+  display:flex;
+  width:100%;
+  justify-content: center;
+}
+
+.titre-info-relais{
+  margin-left:0;
+  text-align: center;
+}
+
+.div-sert{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+#a-quoi-sert{
+  margin-left:0;
+  width:80%;
+}
+
+
+.apports{
+  margin-left:0;
+  text-align: center;
+}
+
+.liste-relais1{
+  display:flex;
+  width:100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+#liste-relais1{
+width:80%;
+margin-left:0;
+padding-left:0;
+}
+
+.apports2{
+  margin-left:0;
+  text-align: center;
 }
 }
 
