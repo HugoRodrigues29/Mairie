@@ -1548,5 +1548,11 @@ text-align: center;
   padding-left:0;
   text-align: center;
 }
+
+/*media Page contact*/
+
+.textarea{
+  width:90%;
+}
 }
 
