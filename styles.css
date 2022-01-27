@@ -1498,5 +1498,55 @@ padding-left:0;
   margin-left:0;
   text-align: center;
 }
+
+/*media Page Ecole de la musique*/
+
+.musique{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+.texte-musique{
+  width:80%;
+}
+
+.titre-instru{
+  margin-left:0;
+  text-align: center;
+}
+
+.titre-enseignement{
+  margin-left:0;
+  text-align: center;
+}
+
+.instruments{
+  display:flex;
+  width:100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.liste-instru{
+  width:80%;
+margin-left:0;
+padding-left:0;
+text-align: center;
+}
+
+.enseignement{
+  display:flex;
+  width:100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.liste-enseignement{
+  width:80%;
+  margin-left:0;
+  padding-left:0;
+  text-align: center;
+}
 }
 
