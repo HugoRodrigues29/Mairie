@@ -1215,7 +1215,8 @@ nav ul li{
   display:flex;
   flex-direction: column;
   width: 100%;
-  align-items:center
+  align-items:center;
+  margin-top:45px;
 }
 .divers p{
 width:80%;
@@ -1407,6 +1408,19 @@ width:80%;
 
 .horaires2{
   font-size:14px;
+}
+
+/*media smartphone Page crèche*/
+
+.info-creche{
+  margin-left:0;
+  width:80%;
+}
+
+.width-creche{
+  width:100%;
+  display: flex;;
+  justify-content: center;
 }
 }
 
